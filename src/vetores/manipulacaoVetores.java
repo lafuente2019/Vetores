@@ -19,7 +19,7 @@ public class manipulacaoVetores {
         }
 
     }
-    public satic int []criarVetor(int tm) {
+    public static int []criarVetor(int tm) {
         int []v = new int[tm];
         return v;
     }
