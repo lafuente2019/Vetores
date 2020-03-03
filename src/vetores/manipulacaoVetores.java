@@ -19,7 +19,11 @@ public class manipulacaoVetores {
         }
 
     }
-
+    public satic int []criarVetor(int tm) {
+        int []v = new int[tm];
+        return v;
+    }
+    
     public static void populaVetor(int[] vetor) {
         Scanner ler = new Scanner(System.in);
         for (int i = 0; i < vetor.length; i++) {
